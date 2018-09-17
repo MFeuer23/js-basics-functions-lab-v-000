@@ -4,3 +4,7 @@ function distanceFromHqInBlocks(distance) {
   return result
 }
 
+function distanceFromHqInFeet(distance) {
+  let feet = distanceFromHqInBlocks(distance)
+  feet 
+}
