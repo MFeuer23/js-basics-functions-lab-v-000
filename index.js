@@ -14,3 +14,11 @@ function distanceTravelledInFeet(start, end) {
   distance *= 264
   return distance
 }
+
+function calculatesFarePrice(start, end) {
+  let price
+  let distance = distanceTravelledInFeet(start, end)
+  if (distance < 400) {
+    price = 0
+  } else if (distance >)
+}
