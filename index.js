@@ -8,3 +8,9 @@ function distanceFromHqInFeet(distance) {
   let feet = distanceFromHqInBlocks(distance) * 264
   return feet
 }
+
+function distanceTravelledInFeet(start, end) {
+  let distance = start - end > 0 ? start - end : end - start
+  distance *= 264
+  return distance
+}
